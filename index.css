@@ -1,92 +1,4 @@
- /* *{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(248, 246, 246);
-   
-}
-.image{
-    height:735px;
-    width: 1495px;
-    background-size: cover;  
-    background-position: center;  
-    background-repeat: no-repeat;
-    background-image: url("https://imgs.search.brave.com/sh9byFoOxddFnE9-B0d68GD0P02XqIFfhyzSNyR-3D0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb21i/by5zdGF0aWNmbGlj/a3IuY29tLzY2YTAz/MWY5ZmMzNDNjNWU0/MmQ5NjVjYS82NmEz/ZThhZTJlZGYyM2Iy/Y2NkODRkYTBfcGhv/dG8tNS1obS5hdmlm");
-}
-.main{
-    position: absolute;
-    top: 190px;
-    left: 460px;
-    height: 400px;
-    width: 600px;
-    border-radius: 10px;
- 
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border:1px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 
- 
-    
-   
-   
-} 
-#weatherText{
-    text-align: center;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    margin-top: 50px;
-font-size: 50px;
-}
-
-
- 
-
-.inputbox{
-  margin-top: 20px;
-  margin-left: 50px;
-    height: 40px;
-    display: flex; 
-    gap: 20px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-}
-input{
-    width: 300px;
-    border-radius: 2px;
-    padding-left: 120px;
-    font-size: large;
-}
-button{
-    width: 70px;
-    font-size: large;
-}
-#country_name{
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    margin-top: 5px;
-font-size: 45px;
-}
-#temprature{
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    margin-top: 5px;
-font-size: 25px;
-}
-#condition{
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    margin-top: 5px;
-font-size: 25px;
-}
-#humidity{
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.064), rgba(255, 255, 255, 0));
-    margin-top: 5px;
-font-size: 25px;
-}
-#value{
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    text-align: center;
-}  */
-
-
-
-/* Reset default margin & padding */
 * {
     margin: 0;
     padding: 0;
@@ -95,14 +7,7 @@ font-size: 25px;
 }
 
 
-/* .image {
-    height:735px;
-    width: 1495px;
-    background-size: cover;  
-    background-position: center;  
-    background-repeat: no-repeat;
-    background-image: url("https://imgs.search.brave.com/sh9byFoOxddFnE9-B0d68GD0P02XqIFfhyzSNyR-3D0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb21i/by5zdGF0aWNmbGlj/a3IuY29tLzY2YTAz/MWY5ZmMzNDNjNWU0/MmQ5NjVjYS82NmEz/ZThhZTJlZGYyM2Iy/Y2NkODRkYTBfcGhv/dG8tNS1obS5hdmlm");
-} */
+
 
 .video-container {
     position: relative;
@@ -206,7 +111,7 @@ button:hover {
 }
 
 
-/* #country_name, */
+
 #temprature,
 #condition,
 #humidity {
